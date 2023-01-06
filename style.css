@@ -15,12 +15,13 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 30px;
     overflow-x: auto;
 
 }
 nav{
     --less-than: 700;
-    --burger-lines:aliceblue;
+    --burger-lines:black;
     --burger-border:var(--primary);
 }
 a{
@@ -30,7 +31,6 @@ a{
 a:hover{
     color: orange;
 }
-
 
 .grid_1-1-1-1{
     display: grid;
